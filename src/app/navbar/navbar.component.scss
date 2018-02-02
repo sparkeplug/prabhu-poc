@@ -1,0 +1,58 @@
+.kpmg-nav{
+  position:absolute;
+  top:0;
+  display:block;
+  background-color: rgb(255,255,255);
+  height:10vh;
+  width: 100%;
+  box-shadow: 0px 0px 40px 0px black;
+  z-index: 2;
+  .kpmg-logo{
+    position: absolute;
+    display:inline-block;
+    width: 100px;
+    height: auto;
+    left: 10%;
+  }
+}
+
+.kpmg-nav-menu{
+  .menu{
+    list-style: none;
+    position: absolute;
+    right:10%;
+  }
+
+  .menu-list{
+    display: inline-block;
+    margin: 0 10px;
+    height: inherit;
+    width:auto;
+    font-weight: bold;
+    color: #00338d;
+    transition: all 0.1s;
+    transition-timing-function: ease-in-out;
+  }
+
+  .menu-list:hover {
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+  }
+}
+
+.sign-out {
+  position: absolute;
+  right:20px;
+
+  .profile{
+    height: 40px;
+    width: auto;
+    transition: all 0.1s;
+  }
+
+  .profile:hover {
+    transform: scale(1.2, 1.2);
+  }
+}
